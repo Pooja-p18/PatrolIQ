@@ -129,7 +129,7 @@ This project is licensed under the MIT License.
 
 ## 👤 Author
 
-**Your Name**
+**Pooja PB**
 - LinkedIn: [linkedin.com/in/pooja-parashuram]
 - GitHub: [Pooja Parashuram](https://github.com/Pooja-p18)
 - Email: poojapbvdee@gmail.com
