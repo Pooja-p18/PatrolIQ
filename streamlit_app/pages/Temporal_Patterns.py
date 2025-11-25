@@ -19,7 +19,8 @@ st.markdown("Discover **WHEN** crimes occur to optimize patrol schedules")
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('data/processed/crime_data_final.csv')
+        df = pd.read_parquet("data/processed/crime_data_final.parquet")
+
         df['Date'] = pd.to_datetime(df['Date'])
         return df
     except FileNotFoundError:

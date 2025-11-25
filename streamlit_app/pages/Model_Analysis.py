@@ -20,7 +20,8 @@ st.markdown("Explore complex crime patterns in simple 2D visualizations and comp
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('data/processed/crime_data_final.csv')
+        df = pd.read_parquet("data/processed/crime_data_final.parquet")
+
         df['Date'] = pd.to_datetime(df['Date'])
         return df
     except FileNotFoundError:
