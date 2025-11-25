@@ -90,7 +90,8 @@ with st.sidebar:
     
     # Quick stats in sidebar
     try:
-        df = pd.read_csv('data/processed/crime_data_final.csv')
+        df = pd.read_parquet("data/processed/crime_data_final.parquet")
+
         st.markdown("## 📊 Quick Stats")
         st.metric("Total Crimes", f"{len(df):,}")
         st.metric("Date Range", f"{df['Date'].min()[:4]}-{df['Date'].max()[:4]}")
