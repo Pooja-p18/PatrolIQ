@@ -130,11 +130,13 @@ resource allocation using machine learning.
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('data/processed/crime_data_final.csv')
-        df['Date'] = pd.to_datetime(df['Date'])
+        df = pd.read_parquet("data/processed/crime_data_final.parquet")
+        df["Date"] = pd.to_datetime(df["Date"])
         return df
-    except FileNotFoundError:
+    except Exception as e:
+        st.error(f"Error loading data: {e}")
         return None
+
 
 df = load_data()
 
