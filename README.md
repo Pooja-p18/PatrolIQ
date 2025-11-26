@@ -140,6 +140,21 @@ This project is licensed under the MIT License.
 - Streamlit for the amazing framework
 - Scikit-learn community
 
----
+## 🌐 Live Demo
+
+**Try it now:** [https://patroliq-poojapb.streamlit.app/]
+
+### Quick Links
+- 📊 [Data Overview](https://patroliq-poojapb.streamlit.app/Data_Overview)
+- 🗺️ [Crime Hotspots](https://patroliq-poojapb.streamlit.app/Crime_Hotspots)
+- ⏰ [Temporal Patterns](https://patroliq-poojapb.streamlit.app/Temporal_Patterns)
+- 🔍 [Model Analysis](https://patroliq-poojapb.streamlit.app/Model_Analysis)
+
+## 🖥️ How to Run Locally
+
+- git clone https://github.com/Pooja-p18/patroliq.git
+- cd PatrolIQ
+- pip install -r requirements.txt
+- streamlit run streamlit_app/Home.py
 
 **⭐ If you find this project helpful, please give it a star!**
