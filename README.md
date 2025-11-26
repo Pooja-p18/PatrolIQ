@@ -32,16 +32,22 @@ PatrolIQ/
 ├── streamlit_app/
 │   ├── Home.py
 │   └── pages/
-│       ├── 1_📊_Data_Overview.py
-│       ├── 2_🗺️_Crime_Hotspots.py
-│       ├── 3_⏰_Temporal_Patterns.py
-│       └── 4_🔍_Model_Analysis.py
+│       ├── Data_Overview.py
+│       ├── Crime_Hotspots.py
+│       ├── Temporal_Patterns.py
+│       └── Model_Analysis.py
 ├── src/
 │   ├── data_preprocessing.py
 │   ├── feature_engineering.py
 │   ├── clustering.py
 │   └── dimensionality.py
 ├── data/
+├── Screenshots/
+│       ├── home.png
+│       ├── hotspots.png
+│       ├── temporal.png
+│       └── model.png
+│       └── data overview.png
 └── requirements.txt
 ```
 
